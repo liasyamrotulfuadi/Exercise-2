@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script</title>
+    <link rel="stylesheet" type="text/css" href="Kalkulator.css"/>
+</head>
+<body>
+    <h1>Kalkulator</h1>
+    <form name="Calc">
+        <input type="text" name="inputAngka"/>
+        <br/>
+        <br/>
+    </form>
+        <button onclick="Calc.inputAngka.value += '1'">1</button>
+        <button onclick="Calc.inputAngka.value += '2'">2</button>
+        <button onclick="Calc.inputAngka.value += '3'">3</button>
+        <button onclick="Calc.inputAngka.value += '+'">+</button><br/>
+        <button onclick="Calc.inputAngka.value += '4'">4</button>
+        <button onclick="Calc.inputAngka.value += '5'">5</button>
+        <button onclick="Calc.inputAngka.value += '6'">6</button>
+        <button onclick="Calc.inputAngka.value += '-'">-</button><br/>
+        <button onclick="Calc.inputAngka.value += '7'">7</button>
+        <button onclick="Calc.inputAngka.value += '8'">8</button>
+        <button onclick="Calc.inputAngka.value += '9'">9</button>
+        <button onclick="Calc.inputAngka.value += '*'">X</button><br/>
+        <button onclick="Calc.inputAngka.value = ''">C</button>
+        <button onclick="Calc.inputAngka.value += '0'">0</button>
+        <button onclick="Calc.inputAngka.value = eval(Calc.inputAngka.value)"">=</button>
+        <button onclick="Calc.inputAngka.value += '/'">/</button><br/>    
+</body>
+</html>
